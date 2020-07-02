@@ -5,11 +5,13 @@ body {
     height: 100%;
 }
 
+header {
+    margin-bottom: 2em;
+  }
+
 nav {
     background-color: #EDC7B7;
 }
-
-
 
 main {
     margin-bottom: 5em;
