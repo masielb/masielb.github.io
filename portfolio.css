@@ -4,7 +4,40 @@ nav {
     background-color: #EDC7B7;
 }
 
+/* IMAGE OVERLAY EFFECTS */
+.project {
+    position: relative;
+}
 
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.project:hover img{
+    opacity: .5;
+}
+
+.project:hover .overlay {
+    opacity: 1;
+  }
+
+h3 {
+    color: black;
+    /* font-size: 45px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
 
 footer {
     width: 100%;
