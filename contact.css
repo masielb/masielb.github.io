@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+nav {
+    background-color: #EDC7B7;
+}
+
 form {
     background-color: #BAB2B5;
     padding: 1em;

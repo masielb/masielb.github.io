@@ -3,7 +3,14 @@
 html,
 body {
     height: 100%;
-    position: relative;
+}
+
+nav {
+    background-color: #EDC7B7;
+}
+
+main {
+    margin-bottom: 5em;
 }
 
 .card {

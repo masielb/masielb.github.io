@@ -1,5 +1,9 @@
 /* styling for portfolio */
 
+nav {
+    background-color: #EDC7B7;
+}
+
 footer {
     width: 100%;
     position: fixed;
