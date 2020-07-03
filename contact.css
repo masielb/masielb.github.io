@@ -5,15 +5,21 @@
 
 header {
     margin-bottom: 2em;
+    font-family: "Raleway", sans-serif;
   }
 
 nav {
     background-color: #EDC7B7;
 }
 
+h1 {
+    font-family: "Raleway", sans-serif;
+}
+
 form {
     background-color: #BAB2B5;
     padding: 1em;
+    font-family: "Open Sans", sans-serif;
     
 }
 

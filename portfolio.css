@@ -2,6 +2,7 @@
 
 header {
     margin-bottom: 2em;
+    font-family: "Raleway", sans-serif;
   }
 
 nav {
@@ -10,6 +11,10 @@ nav {
 
 main {
     margin-bottom: 5em;
+}
+
+h1 {
+    font-family: "Raleway", sans-serif;
 }
 
 /* IMAGE OVERLAY EFFECTS */
@@ -42,6 +47,7 @@ main {
   }
 
 h3 {
+    font-family: "Raleway", "Open Sans", sans-serif;
     color: black;
     position: absolute;
     text-align: center;
