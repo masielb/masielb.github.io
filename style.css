@@ -16,7 +16,7 @@ nav {
 }
 
 main {
-    margin-bottom: 5em;
+    margin-bottom: 8em;
 }
 
 h1 {
@@ -126,3 +126,15 @@ ul.social-network {
     background-color: #F9F9F9;
   }
   
+  /* MEDIA QUERIES */
+@media screen and (max-width: 770px) {
+
+  section {
+      margin-bottom: 1em;
+  }
+
+  footer {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}

@@ -12,6 +12,10 @@ nav {
     background-color: #EDC7B7;
 }
 
+main {
+  margin-bottom: 6em;
+}
+
 h1 {
     font-family: "Raleway", sans-serif;
 }
@@ -114,3 +118,11 @@ ul.social-network {
     background-color: #F9F9F9;
   }
   
+    /* MEDIA QUERIES */
+@media screen and (max-width: 770px) {
+
+  footer {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
