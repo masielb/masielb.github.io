@@ -17,6 +17,9 @@ h1 {
     font-family: "Raleway", sans-serif;
 }
 
+main img {
+  margin-bottom: 2em;
+}
 /* IMAGE OVERLAY EFFECTS */
 .project {
     position: relative;
@@ -79,7 +82,6 @@ ul.social-network {
   }
   
   /*social icons hover actions*/
-  
   .social-network a.icoCodePen:hover {
     background-color: #3B5998;
   }
@@ -148,7 +150,7 @@ ul.social-network {
     background-color: #F9F9F9;
   }
   
-
+/* MEDIA QUERIES */
 @media screen and (max-width: 770px) {
 
     section {
