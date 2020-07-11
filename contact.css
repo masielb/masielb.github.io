@@ -9,7 +9,7 @@ header {
   }
 
 nav {
-    background-color: #EDC7B7;
+    
 }
 
 main {
@@ -32,7 +32,7 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    background-color: #EDC7B7;
+    background-color: white;
 }
 
 /*FOOTER SOCİAL ICONS*/

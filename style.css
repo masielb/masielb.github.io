@@ -8,15 +8,18 @@ body {
 header {
     margin-bottom: 2em;
     font-family: "Raleway", sans-serif;
-    background-color: #EDC7B7;
   }
 
 nav {
-    background-color: #EDC7B7;
 }
 
 main {
     margin-bottom: 8em;
+}
+
+.jumbotron {
+  background-color:#EDC7B7;
+  padding: 5em;
 }
 
 h1 {
@@ -40,7 +43,7 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    background-color: #EDC7B7;
+    background-color: white;
 }
 
 /*FOOTER SOCİAL ICONS*/
