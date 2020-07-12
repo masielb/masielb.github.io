@@ -6,20 +6,18 @@ body {
 }
 
 header {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     font-family: "Raleway", sans-serif;
   }
 
-nav {
-}
-
 main {
-    margin-bottom: 8em;
+  margin-bottom: 6em;
 }
 
 .jumbotron {
   background-color:#EDC7B7;
-  padding: 5em;
+  padding: 8em;
+  margin-bottom: 2em;
 }
 
 h1 {
@@ -33,9 +31,19 @@ h4 {
 p {
     font-family: "Open Sans", sans-serif;
 }
-.card {
-    border: none;
+
+section {
+  align-content: center;
 }
+
+article {
+  width: 100%;
+  height: 25vh;
+  margin-top: 1em;
+}
+.project2 {background-color: #BAB2B5;}
+.project1 {background-color: #EEE2DC;}
+.project3 {background-color: #EDC7B7;}
 
 footer {
     width: 100%;
