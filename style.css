@@ -55,7 +55,7 @@ footer {
 }
 
 /*FOOTER SOCİAL ICONS*/
-ul.social-network {
+  ul.social-network {
     list-style: none;
     display: inline;
     /* margin-left: 0 !important; */
@@ -81,6 +81,11 @@ ul.social-network {
     background-color: #123C69;
   }
   
+  .social-network a.icoGitHub:hover {
+    background-color:  #007bb7;
+  }
+
+  .social-network a.icoGitHub:hover i,
   .social-network a.icoCodePen:hover i,
   .social-network a.icoLinkedin:hover i,
   .social-network a.icoMail:hover i   {
@@ -141,7 +146,7 @@ ul.social-network {
 @media screen and (max-width: 770px) {
 
   main {
-    margin-bottom: 2em;
+    margin-bottom: 4em;
   }
   
   .jumbotron {

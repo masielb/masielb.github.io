@@ -62,6 +62,11 @@ ul.social-network {
     background-color: #123C69;
   }
   
+  .social-network a.icoGitHub:hover {
+    background-color:  #007bb7;
+  }
+
+  .social-network a.icoGitHub:hover i,
   .social-network a.icoCodePen:hover i,
   .social-network a.icoLinkedin:hover i,
   .social-network a.icoMail:hover i   {
