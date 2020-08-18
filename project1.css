@@ -1,0 +1,23 @@
+
+html,
+body {
+    height: 100%;
+}
+
+header {
+    margin-bottom: 2em;
+    font-family: "Raleway", sans-serif;
+  }
+
+nav {
+    /* background-color: #EDC7B7; */
+}
+
+main {
+    margin-top:2em;
+    margin-bottom: 5em;
+}
+
+h1 {
+    font-family: "Raleway", sans-serif;
+}
