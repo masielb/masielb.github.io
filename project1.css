@@ -5,7 +5,6 @@ body {
 }
 
 header {
-    margin-bottom: 2em;
     font-family: "Raleway", sans-serif;
   }
 
@@ -20,4 +19,12 @@ main {
 
 h1 {
     font-family: "Raleway", sans-serif;
+}
+
+.jumbotron {
+    background-color: white;
+}
+
+.exploreimg {
+    margin-bottom: 2em;
 }
