@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Masiel Bautista</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="project1.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@300;500&display=swap" rel="stylesheet">
+    <!-- jQuery CDN -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- Icons -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <body class="container">
+        <header>
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html">Masiel Bautista</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- LINKS TO MENU PAGES START HERE -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item btn-group">
+                  <a class="nav-link " href="portfolio.html">Portfolio</a>
+                  <a class="nav-link dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="sr-only">Toggle Dropdown</span>
+                  </a>
+                  <!-- Dropdown items will later lead to future projects -->
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Project 1</a>
+                    <a class="dropdown-item" href="#">Project 2</a>
+                    <a class="dropdown-item" href="#">Project 3</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          
+          <main class="container">
+              <h1>CoffeeHut</h1>
+              <div class="jumbotron">
+                  <img src="assets/hours.png" style="max-width: 100%;">
+              </div>
+              <h3>Links</h3>
+              <p>Deployed Version: https://project-2-team-7.herokuapp.com/ </p> 
+              <p>GitHub Repo: https://github.com/jesseodonoghue/project-2</p>
+              <section >
+                    <h3>Concept</h3>
+                    <ul>
+                        <li>CoffeeHut is a web based application through which a user can order craft coffee drinks from their local coffee shop, CoffeeHut. Upon navigating to the application the user will be prompted to log in or create an account. Once the user logs in they can create a new order or view any previous orders they’ve placed. When creating a new order, the user can select a drink from the given menu. Each drink may be modified using a list of customizations that are offered. Users may also visit their Profile page to adjust login information and view previous orders.</li>
+                        <li>User story: AS A coffee consumer living in COVID times I WANT TO be able to place my coffee orders remotely SO THAT I CAN minimize contact with others.</li>
+                    </ul>
+              </section>
+              <section >
+                  <h3>Process</h3>
+                  <ul>
+                      <li>Technologies Used: CSS/JS, Handlebars, Express, MySQL, Sequelize, Passport, Local Auth</li>
+                      <li>Tasks & Roles: Masiel & Jake took on front-end UI design and development; Jesse & Graham took on back-end development.</li>
+                  </ul>
+              </section>
+              <section>
+                  <h3>Gallery</h3>
+                  <img class="exploreimg" src="assets/menupage.png" alt="menu page" style="width:100%;">
+                  <img class="exploreimg" src="assets/dashboard.png" alt="customize your drink pop-up" style="width:100%;">
+                  <img class="exploreimg" src="assets/orderup.png" alt="see your shopping cart" style="width:100%;">
+                  <img class="exploreimg" src="assets/orderconfirmation.png" alt="your order confirmation page/receipt" style="width:100%;">
+                  <img class="exploreimg" src="assets/orderprofile.png" alt="your profile stores your orders and personal info" style="width:100%;">
+
+              </section>
+          </main>
+        </header>
+  </body>
+</html>
