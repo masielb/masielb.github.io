@@ -28,17 +28,15 @@ h4 {
     font-family: "Raleway", "Open Sans", sans-serif;
 }
 
-h5 {
-  margin: 2em;
-}
-
 p {
     font-family: "Open Sans", sans-serif;
 }
 
+/* ARTICLES */
 article {
   width: 100%;
-  height: 25vh;
+  height: auto;
+  padding: 2em;
   margin-top: 1em;
   text-align: center;
 }
@@ -49,13 +47,33 @@ article a {
 }
 
 article a:hover {
-  color: #AC3B61;
+  color: white;
   text-decoration: none;
 }
 
 .project2 {background-color: #BAB2B5;}
 .project1 {background-color: #EEE2DC;}
 .project3 {background-color: #EDC7B7;}
+.project4 {background-color: #EEE2DC;}
+
+/* DROPDOWN IMAGES */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 footer {
     width: 100%;
